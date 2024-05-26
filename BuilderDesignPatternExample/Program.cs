@@ -4,7 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var computer = new ComputerBuilder()
+        var computer = new ComputerBuilder();
+
+        computer
             .AddCpu("Intel i7")
             .AddRam("8")
             .AddHardDisk("1 TB")
